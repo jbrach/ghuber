@@ -8,7 +8,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Here are the NPM steps I followed:
 *npm install @angular/cli
 *npm install --save-dev @angular-devkit/build-angular
-*npm install --save-dev @sparkdesignsystem/spark-core
 *npm install --save-dev @sparkdesignsystem/spark-core-angular
   
 Error after adding to styles.css -->  '@import "node_modules/@sparkdesignsystem/spark-core/spark-core.scss";'

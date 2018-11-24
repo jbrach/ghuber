@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { SparkCoreAngularModule } from '@sparkdesignsystem/spark-core-angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { sparkCorePrerender } from "@sparkdesignsystem/spark-core/spark-core-prerender";
 
 
 @NgModule({
@@ -19,9 +18,7 @@ import { sparkCorePrerender } from "@sparkdesignsystem/spark-core/spark-core-pre
     BrowserModule,
     AppRoutingModule,
     SparkCoreAngularModule,
-    BrowserAnimationsModule,
-    sparkCorePrerender
-    
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
